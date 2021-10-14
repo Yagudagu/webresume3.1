@@ -15,12 +15,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/art" component={Art} />
-        <Route render={() => <Redirect to="/" />} />
-      </Switch>
-      <GlobalStyle /> */
-}
