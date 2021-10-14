@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+//import { Switch, Route, Redirect } from "react-router-dom";
 
 // Components
 import { Home } from "./Components/Home";
@@ -9,12 +9,13 @@ import { Art } from "./Components/Art";
 function App() {
   return (
     <>
-      <Switch>
+      <div>Fuck a duck</div>
+      {/* <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/art" component={Art} />
         <Route render={() => <Redirect to="/" />} />
       </Switch>
-      <GlobalStyle />
+      <GlobalStyle /> */}
     </>
   );
 }
